@@ -35,13 +35,13 @@ public class CustomListTest {
         list.addCity(new City("Estevan", "SK"));
         assertEquals(list.getCount(),listSize + 1);
     }
-    @Test
-    public void hasCityTest() {
-
-    }
-    @Test
-    public void deleteCityTest() {}
-
-    @Test
-    public void
+//    @Test
+//    public void hasCityTest() {
+//
+//    }
+//    @Test
+//    public void deleteCityTest() {}
+//
+//    @Test
+//    public void
 }
