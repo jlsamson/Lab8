@@ -61,11 +61,11 @@ public class CustomList extends ArrayAdapter<City> {
     /**
      * this checks to see if the city
      * is in the list
-     * @param cityName
+     * @param city
      * @return true if city exists in list
      */
-    public boolean hasCity(String cityName){
-
+    public boolean hasCity(City city){
+        return cities.contains(city);
     }
 
 }
